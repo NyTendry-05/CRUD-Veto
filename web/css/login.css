@@ -1,0 +1,22 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: 500px;
+    border: solid 1px grey;
+}
+.row form {
+    padding: 50px;
+} 

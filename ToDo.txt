@@ -1,0 +1,14 @@
+1) (ok) Conception
+2) Manao classe miaraka amin'ny CRUD pour chaque table
+3) Manao servlet par entité:
+    a) servlet1: 
+        -doGet  => init for getAll, delete
+        -doPost => insert et update
+    b) servlet2:
+        -doGet  => init drop down list pour les fomulaires, init pour les updates
+        -doPost => ???
+4) Affichage: 
+    a) Liste tsotra
+    b) Login
+    c) Liste misy boutton insert, supp, delete
+    d) Barre de recherche pour une entité

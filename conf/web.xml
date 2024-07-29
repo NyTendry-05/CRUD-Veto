@@ -1,0 +1,136 @@
+<web-app>
+
+   <!-- Déclaration d'une servlet -->
+    <servlet>
+     <!-- Nom logique de la servlet -->
+        <servlet-name>Garde</servlet-name>
+     <!-- Classe associée -->
+        <servlet-class>servlet.GardeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+     <!-- Associe un nom logique à l'URL ci-dessous -->
+        <servlet-name>Garde</servlet-name>
+     <!-- URL auquel on envoie les requêtes pour qu'elles parviennent au servlets (io le soratana eny am navigateur) -->
+        <url-pattern>/Garde</url-pattern>
+    </servlet-mapping>
+
+    <!-- Déclaration d'une servlet -->
+    <servlet>
+     <!-- Nom logique de la servlet -->
+        <servlet-name>Proprietaire</servlet-name>
+     <!-- Classe associée -->
+        <servlet-class>servlet.ProprietaireServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+     <!-- Associe un nom logique à l'URL ci-dessous -->
+        <servlet-name>Proprietaire</servlet-name>
+     <!-- URL auquel on envoie les requêtes pour qu'elles parviennent au servlets (io le soratana eny am navigateur) -->
+        <url-pattern>/Proprietaire</url-pattern>
+    </servlet-mapping>
+
+    <!-- Déclaration d'une servlet -->
+    <servlet>
+     <!-- Nom logique de la servlet -->
+        <servlet-name>Animal</servlet-name>
+     <!-- Classe associée -->
+        <servlet-class>servlet.AnimalServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+     <!-- Associe un nom logique à l'URL ci-dessous -->
+        <servlet-name>Animal</servlet-name>
+     <!-- URL auquel on envoie les requêtes pour qu'elles parviennent au servlets (io le soratana eny am navigateur) -->
+        <url-pattern>/Animal</url-pattern>
+    </servlet-mapping>
+
+    <!-- Déclaration d'une servlet -->
+    <servlet>
+     <!-- Nom logique de la servlet -->
+        <servlet-name>Sitting</servlet-name>
+     <!-- Classe associée -->
+        <servlet-class>servlet.SittingServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+     <!-- Associe un nom logique à l'URL ci-dessous -->
+        <servlet-name>Sitting</servlet-name>
+     <!-- URL auquel on envoie les requêtes pour qu'elles parviennent au servlets (io le soratana eny am navigateur) -->
+        <url-pattern>/Sitting</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+     <!-- Nom logique de la servlet -->
+        <servlet-name>Login</servlet-name>
+     <!-- Classe associée -->
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+     <!-- Associe un nom logique à l'URL ci-dessous -->
+        <servlet-name>Login</servlet-name>
+     <!-- URL auquel on envoie les requêtes pour qu'elles parviennent au servlets (io le soratana eny am navigateur) -->
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+      <welcome-file>Login</welcome-file>
+   </welcome-file-list>
+
+    <servlet>
+     <!-- Nom logique de la servlet -->
+        <servlet-name>FormAnimal</servlet-name>
+     <!-- Classe associée -->
+        <servlet-class>servlet.FormAnimal</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+     <!-- Associe un nom logique à l'URL ci-dessous -->
+        <servlet-name>FormAnimal</servlet-name>
+     <!-- URL auquel on envoie les requêtes pour qu'elles parviennent au servlets (io le soratana eny am navigateur) -->
+        <url-pattern>/FormAnimal</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+     <!-- Nom logique de la servlet -->
+        <servlet-name>FormGarde</servlet-name>
+     <!-- Classe associée -->
+        <servlet-class>servlet.FormGarde</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+     <!-- Associe un nom logique à l'URL ci-dessous -->
+        <servlet-name>FormGarde</servlet-name>
+     <!-- URL auquel on envoie les requêtes pour qu'elles parviennent au servlets (io le soratana eny am navigateur) -->
+        <url-pattern>/FormGarde</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+     <!-- Nom logique de la servlet -->
+        <servlet-name>FormSitting</servlet-name>
+     <!-- Classe associée -->
+        <servlet-class>servlet.FormSitting</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+     <!-- Associe un nom logique à l'URL ci-dessous -->
+        <servlet-name>FormSitting</servlet-name>
+     <!-- URL auquel on envoie les requêtes pour qu'elles parviennent au servlets (io le soratana eny am navigateur) -->
+        <url-pattern>/FormSitting</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+     <!-- Nom logique de la servlet -->
+        <servlet-name>FormProprietaire</servlet-name>
+     <!-- Classe associée -->
+        <servlet-class>servlet.FormProprietaire</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+     <!-- Associe un nom logique à l'URL ci-dessous -->
+        <servlet-name>FormProprietaire</servlet-name>
+     <!-- URL auquel on envoie les requêtes pour qu'elles parviennent au servlets (io le soratana eny am navigateur) -->
+        <url-pattern>/FormProprietaire</url-pattern>
+    </servlet-mapping>
+</web-app>
